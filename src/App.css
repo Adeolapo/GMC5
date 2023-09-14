@@ -1,0 +1,84 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav nav{
+    width: 100%;
+    height: 3.5rem;
+    background-color: blanchedalmond;
+    border-bottom: 3px solid rgb(15, 15, 15);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.navlink{
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-left: 10px;
+}
+.navlink .active{
+    background-color: antiquewhite;
+    color: aliceblue;
+}
+.box{
+    width: 600px;
+    height: 350px;
+    border-radius: 30px;
+    border: 2px solid darkolivegreen;
+    text-align: center;
+}
+
+/* ListTask.css */
+h2 {
+    color: #243c5e;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #30475e;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li span {
+    flex-grow: 1;
+  }
+  
+  button {
+    background-color: #45aaf2;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 5px;
+  }
+  
+  button:hover {
+    background-color: #3498db;
+  }
+  
+  input[type='text'] {
+    padding: 5px;
+    border: 1px solid #243c5e;
+    border-radius: 3px;
+  }
+  
+  input[type='text']:focus {
+    outline: none;
+    border-color: #45aaf2;
+  }
+  
